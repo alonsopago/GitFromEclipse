@@ -2,6 +2,7 @@
 
 public class Cliente {
 	public Cliente(String nombre, String n_cuenta, double saldo ){
+		int i=0;
 		this.nombre = nombre;
 		this.n_cuenta = n_cuenta;
 		this.saldo = saldo;

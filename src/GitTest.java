@@ -11,6 +11,7 @@ public class GitTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int i = 0;
 		Cliente cli1 = new Cliente("Antonio Banderas", "00001", 200000);
 		Cliente cli2 = new Cliente("Rafael Nadal", "00002", 250000);
 		Cliente cli3 = new Cliente("Penélope Cruz", "00003", 300000);
