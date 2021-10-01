@@ -3,12 +3,11 @@ Submitting a project to JitHub
 
 1. Make one modification on a project file.
 2. To connect to GitHub.
-	a.Create a proyect at GitHub.com. 
-	b. In Eclipse generate a SSH pubKey.
-	Window->Preferences->General->Team->Configuration->RepositorySettingsTab--AddEntry: Name: url, Value:git@github.com:alonsopago/GitFromEclipse.git
-	Window->Preferences->General->Network Connectios->SSH2->KeyManagementTab->Generate RSA Key->PassPhrase->ConfirmPassPhrase->SavePrivateKey
-	Window->Preferences->General->Network Connectios->SSH2->General->addprivatekeybutton. Add the last created key.
-	c.At GitHub.com. 
-		After: YourProfile->OpenYourProject->Settings->DeployKeys
-		And paste the ssh gey generated on Eclipse, set a name and save it.
-Make your submit push on Eclipse.
+	On GitHub:
+	a.Create a proyect at GitHub.com with https access mode. 
+	b. Settings on ppal menu->Developper settings->Personal access tokens->Generate new Token->Set a name->generate->copy the token.
+	On Eclipse.
+	a.push.
+	b.configure with https
+	c.User alonsopago
+	d. password: Personal access token generated
